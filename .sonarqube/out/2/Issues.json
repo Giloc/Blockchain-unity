@@ -1,0 +1,394 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador de Microsoft (R) Visual C#",
+        "version": "4.7.0.0",
+        "fileVersion": "4.7.0-3.23416.8 (43b0b05c)",
+        "semanticVersion": "4.7.0",
+        "language": "es-MX"
+      },
+      "results": [
+        {
+          "ruleId": "USG0001",
+          "level": "warning",
+          "message": "Only allowed to have one file passed in with extension '.AdditionalFile.txt'",
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'ResolutionDialogSetting' está obsoleto: 'The Display Resolution Dialog has been removed.'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Unity%20Projects/Blockchain/Library/PackageCache/com.unity.test-framework@1.1.33/UnityEditor.TestRunner/TestLaunchers/PlayerLauncherContextSettings.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 17,
+                  "endLine": 14,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'ResolutionDialogSetting' está obsoleto: 'The Display Resolution Dialog has been removed.'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Unity%20Projects/Blockchain/Library/PackageCache/com.unity.test-framework@1.1.33/UnityEditor.TestRunner/TestLaunchers/PlayerLauncherContextSettings.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 17,
+                  "endLine": 14,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'BuildTarget.Lumin' está obsoleto: 'Lumin has been removed in 2022.2'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Unity%20Projects/Blockchain/Library/PackageCache/com.unity.test-framework@1.1.33/UnityEditor.TestRunner/TestLaunchers/PlayerLauncher.cs",
+                "region": {
+                  "startLine": 138,
+                  "startColumn": 59,
+                  "endLine": 138,
+                  "endColumn": 76
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'PlayerSettings.displayResolutionDialog' está obsoleto: 'displayResolutionDialog has been removed.'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Unity%20Projects/Blockchain/Library/PackageCache/com.unity.test-framework@1.1.33/UnityEditor.TestRunner/TestLaunchers/PlayerLauncherContextSettings.cs",
+                "region": {
+                  "startLine": 61,
+                  "startColumn": 41,
+                  "endLine": 61,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'PlayerSettings.displayResolutionDialog' está obsoleto: 'displayResolutionDialog has been removed.'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Unity%20Projects/Blockchain/Library/PackageCache/com.unity.test-framework@1.1.33/UnityEditor.TestRunner/TestLaunchers/PlayerLauncherContextSettings.cs",
+                "region": {
+                  "startLine": 62,
+                  "startColumn": 13,
+                  "endLine": 62,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'ResolutionDialogSetting' está obsoleto: 'The Display Resolution Dialog has been removed.'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Unity%20Projects/Blockchain/Library/PackageCache/com.unity.test-framework@1.1.33/UnityEditor.TestRunner/TestLaunchers/PlayerLauncherContextSettings.cs",
+                "region": {
+                  "startLine": 62,
+                  "startColumn": 54,
+                  "endLine": 62,
+                  "endColumn": 77
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'PlayerSettings.displayResolutionDialog' está obsoleto: 'displayResolutionDialog has been removed.'",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Unity%20Projects/Blockchain/Library/PackageCache/com.unity.test-framework@1.1.33/UnityEditor.TestRunner/TestLaunchers/PlayerLauncherContextSettings.cs",
+                "region": {
+                  "startLine": 99,
+                  "startColumn": 13,
+                  "endLine": 99,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'EditorUserBuildSettings.wsaSubtarget' está obsoleto: 'EditorUserBuildSettings.wsaSubtarget is obsolete and has no effect. It will be removed in a subsequent Unity release.'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Unity%20Projects/Blockchain/Library/PackageCache/com.unity.test-framework@1.1.33/UnityEditor.TestRunner/TestLaunchers/PlatformSetup/UwpPlatformSetup.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 17,
+                  "endLine": 26,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'WSASubtarget' está obsoleto: 'WSASubtarget is obsolete and has no effect. It will be removed in a subsequent Unity release.'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Unity%20Projects/Blockchain/Library/PackageCache/com.unity.test-framework@1.1.33/UnityEditor.TestRunner/TestLaunchers/PlatformSetup/UwpPlatformSetup.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 56,
+                  "endLine": 26,
+                  "endColumn": 68
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0618",
+          "level": "warning",
+          "message": "'BuildTarget.Lumin' está obsoleto: 'Lumin has been removed in 2022.2'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Unity%20Projects/Blockchain/Library/PackageCache/com.unity.test-framework@1.1.33/UnityEditor.TestRunner/TestLaunchers/PlatformSetup/PlatformSpecificSetup.cs",
+                "region": {
+                  "startLine": 118,
+                  "startColumn": 18,
+                  "endLine": 118,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "UNT0013",
+          "level": "note",
+          "message": "SerializeField attribute is invalid or redundant for property or field: 'AnyTestsExecuted'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Unity%20Projects/Blockchain/Library/PackageCache/com.unity.test-framework@1.1.33/UnityEditor.TestRunner/CommandLineTest/ExitCallbacksDataHolder.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 9,
+                  "endLine": 8,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "UNT0013",
+          "level": "note",
+          "message": "SerializeField attribute is invalid or redundant for property or field: 'RunFailed'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Unity%20Projects/Blockchain/Library/PackageCache/com.unity.test-framework@1.1.33/UnityEditor.TestRunner/CommandLineTest/ExitCallbacksDataHolder.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 9,
+                  "endLine": 10,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "UNT0013",
+          "level": "note",
+          "message": "SerializeField attribute is invalid or redundant for property or field: 'm_ResultFilePath'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Unity%20Projects/Blockchain/Library/PackageCache/com.unity.test-framework@1.1.33/UnityEditor.TestRunner/CommandLineTest/ResultsSavingCallbacks.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 9,
+                  "endLine": 13,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "UNT0013",
+          "level": "note",
+          "message": "SerializeField attribute is invalid or redundant for property or field: 'TestRuns'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Unity%20Projects/Blockchain/Library/PackageCache/com.unity.test-framework@1.1.33/UnityEditor.TestRunner/TestRun/TestJobDataHolder.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 9,
+                  "endLine": 9,
+                  "endColumn": 69
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "UNT0013",
+          "level": "note",
+          "message": "SerializeField attribute is invalid or redundant for property or field: 'RunFinished'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Unity%20Projects/Blockchain/Library/PackageCache/com.unity.test-framework@1.1.33/UnityEditor.TestRunner/TestRunner/EditModeRunner.cs",
+                "region": {
+                  "startLine": 90,
+                  "startColumn": 9,
+                  "endLine": 91,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CS0618": {
+          "id": "CS0618",
+          "shortDescription": "El tipo o el miembro están obsoletos",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "UNT0013": {
+          "id": "UNT0013",
+          "shortDescription": "Remove invalid SerializeField attribute",
+          "fullDescription": "SerializeField attribute does not work on properties, and are unnecessary for public fields.",
+          "defaultLevel": "note",
+          "helpUri": "https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0013.md",
+          "properties": {
+            "category": "Correctness",
+            "isEnabledByDefault": true
+          }
+        },
+        "USG0001": {
+          "id": "USG0001",
+          "shortDescription": "Error with Additional file for Unity Source Generator",
+          "defaultLevel": "warning",
+          "properties": {
+            "category": "SourceGenerator",
+            "isEnabledByDefault": true
+          }
+        }
+      }
+    }
+  ]
+}
